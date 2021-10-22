@@ -24,4 +24,50 @@
 
 // const repeatStr = (multiplier, str) => `${str.repeat(multiplier)}`
 
-// console.log(repeatStr(4, " blow me"))
+// console.log(repeatStr(4, "hubba"))
+
+// Remove exclamation marks
+
+// const removeExclamationMarks = str => str.replaceAll("!", "");
+
+// const removeExclamationMarks = str => str.replace(/!/g, "");
+// // used regex as codewars' browser doesn't support replaceAll
+// console.log(removeExclamationMarks("Lets go Brandon!  !!! What the hell??!! Codewars does not support replaceAll!!"));
+
+// Correct the mistakes of the character recognition software
+
+// const correct = (string) => string.replace(/5/g,"S").replace(/1/g,"I").replace(/0/g,"O");
+// console.log(correct("5 1 0"))
+
+// Is it even?
+
+// function testEven(n) {
+//   if (n % 2 === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// // with ternary operator
+
+// function testEven(n) {
+//   return n % 2 === 0;
+// }
+// console.log(testEven(6));
+
+// Beginner Series #1 School Paperwork
+
+// function paperwork0(n, m) {
+//     if (n > 0 && m > 0) {
+//       return n * m;
+//     } else {
+//       return 0;
+//     }
+//   }
+// // With ternary operator
+
+//   function paperwork1(n, m) {
+//     return n > 0 && m > 0 ? n * m : 0
+//   }
+// console.log(paperwork0(4, 3))
+// console.log(paperwork1(4, 3))
