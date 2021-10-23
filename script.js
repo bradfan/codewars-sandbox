@@ -71,3 +71,17 @@
 //   }
 // console.log(paperwork0(4, 3))
 // console.log(paperwork1(4, 3))
+
+// Terminal Game move function
+// const move = (position, roll) => (roll *2) + position;
+// console.log(move(4, 3));
+
+// You're a square
+
+// const isSquare = function(n){
+//     return n >= 0 && Math.sqrt(n) %1 === 0;
+//     //  %1 (modulus 1 returns a whole number), 0 is a square root
+     
+//   }
+
+//   console.log(isSquare(10));
