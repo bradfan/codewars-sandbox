@@ -159,6 +159,10 @@
 
 // console.log(doubleChar("Let's go Brandon!"));
 
+// Twice as old
 
+const twiceAsOld = (dadAge, sonAge) => Math.abs(sonAge * 2 - dadAge)
+
+  
     
- 
+ console.log(twiceAsOld(50,28))
