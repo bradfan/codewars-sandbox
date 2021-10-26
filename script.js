@@ -161,8 +161,18 @@
 
 // Twice as old
 
-const twiceAsOld = (dadAge, sonAge) => Math.abs(sonAge * 2 - dadAge)
+// const twiceAsOld = (dadAge, sonAge) => Math.abs(sonAge * 2 - dadAge)
 
-  
-    
- console.log(twiceAsOld(50,28))
+//  console.log(twiceAsOld(50,28))
+
+//  USD => CNY
+
+// const usdcny = (usd) =>  `${(usd * 6.75).toFixed(2)} Chinese Yuan`
+
+// console.log(usdcny(83.25));
+
+// Return Negative
+
+// const makeNegative = (num) => num <= 0 ? num : num * -1;
+
+// console.log(makeNegative(-526));
