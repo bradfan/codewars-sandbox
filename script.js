@@ -176,3 +176,15 @@
 // const makeNegative = (num) => num <= 0 ? num : num * -1;
 
 // console.log(makeNegative(-526));
+
+// Even Numbers in an array
+
+// const evenNumbers = function (array, number) {
+//     let newArray = [];
+    
+//     for (let i = 0; i < array.length; i++) {
+//      if(array[i] % 2 === 0) newArray.push(array[i]); 
+//     }
+//     return newArray.splice(newArray - number, number)
+//   };
+// console.log(evenNumbers([-52, 56, 30, 29, -54, 0, -110], 6));
