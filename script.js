@@ -181,14 +181,13 @@
 
 // const evenNumbers = function (array, number) {
 //     let newArray = [];
-    
+
 //     for (let i = 0; i < array.length; i++) {
-//      if(array[i] % 2 === 0) newArray.push(array[i]); 
+//      if(array[i] % 2 === 0) newArray.push(array[i]);
 //     }
 //     return newArray.splice(newArray - number, number)
 //   };
 // console.log(evenNumbers([-52, 56, 30, 29, -54, 0, -110], 6));
-
 
 //  Thinkful - Logic Drills: Traffic light
 
@@ -199,7 +198,7 @@
 //       return "red"
 //   } else if(current === "red")
 //       return "green"
-  
+
 //   }
 
 //   console.log(updateLight("red"));
@@ -209,9 +208,14 @@
 // const reverseSeq = n => {
 //     let reverse = [];
 //     for (let i = n; i >= 1; i--) {
-//         reverse.push(i); 
+//         reverse.push(i);
 //     } return reverse
-// } 
+// }
 
 // console.log(reverseSeq(5))
 
+// Invert values
+
+// const invert = (array) => array.map((e) => (-e));
+
+// console.log(invert([1, -2, 3, -4, 5]));
