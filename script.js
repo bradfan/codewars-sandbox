@@ -188,3 +188,18 @@
 //     return newArray.splice(newArray - number, number)
 //   };
 // console.log(evenNumbers([-52, 56, 30, 29, -54, 0, -110], 6));
+
+
+//  Thinkful - Logic Drills: Traffic light
+
+// const  updateLight = function(current) {
+//   if(current === "green") {
+//       return "yellow"
+//   } else if(current === "yellow") {
+//       return "red"
+//   } else if(current === "red")
+//       return "green"
+  
+//   }
+
+//   console.log(updateLight("red"));
