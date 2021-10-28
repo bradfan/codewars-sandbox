@@ -203,3 +203,15 @@
 //   }
 
 //   console.log(updateLight("red"));
+
+// Reversed sequence
+
+// const reverseSeq = n => {
+//     let reverse = [];
+//     for (let i = n; i >= 1; i--) {
+//         reverse.push(i); 
+//     } return reverse
+// } 
+
+// console.log(reverseSeq(5))
+
