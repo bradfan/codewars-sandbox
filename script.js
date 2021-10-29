@@ -225,3 +225,93 @@
 // const otherAngle = (a, b) => 180 - (a + b);
 
 // console.log(otherAngle(90,45));
+
+// Is there a vowel in there?
+
+// function isVow(array) {
+//   let newArray = [];
+//   for (let i = 0; i < array.length; i++) {
+//     if (
+//       array[i] === "a" ||
+//       array[i] === "e" ||
+//       array[i] === "i" ||
+//       array[i] === "o" ||
+//       array[i] === "u"
+//     ) {
+//       newArray.push(array[i]);
+//       console.log("new array", newArray);
+//       let result = newArray.toString();
+//       console.log("result", result, typeof result);
+//       //   return result;
+//     }
+//   }
+// }
+
+// console.log(
+//   isVow([
+//     118,
+//     "u",
+//     120,
+//     121,
+//     "u",
+//     98,
+//     122,
+//     "a",
+//     120,
+//     106,
+//     104,
+//     116,
+//     113,
+//     114,
+//     113,
+//     120,
+//     106,
+//   ])
+// );
+
+// // ABOVE SOULTION DOES NOT WORK. LINE 244 IS THE ANSWER BUT IT WON'T RETURN CORRECTLY
+
+// Return Two Highest Values in List
+
+// const twoHighest = function (array) {
+//   let highest = [];
+//   let secondHighest = [];
+//   let result = [];
+//   if (array.length !== 0) {
+//     highest.push(Math.max(...array));
+//     console.log(highest);
+//     array.splice(array.indexOf(highest));
+//     console.log(array)
+//     secondHighest.push(Math.max(...array));
+//     result = secondHighest.concat(highest);
+//     return result;
+//   } else {
+//     return [];
+//   }
+// };
+// console.log(twoHighest([15, 20, 21, 17]));
+
+// // const twoHighest = function (array) {
+   
+// //     for (let i = 0; i < array.length; i++) {
+// //         const newArray = [];
+// //         if(array[i] > array[i++]) {
+// //            newArray.push(array[i]);
+// //            console.log(newArray)
+// //         }
+        
+// //     }
+        
+// // };
+// // console.log(twoHighest([15, 20, 21, 17]));
+
+// // const invert = (array) => array.map((e) => (-e));
+
+// Codewars Array plus Array Redux
+
+// const arrayPlusArray = (a,b) => a.concat(b).reduce((x, y) => x + y)
+
+// console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
+
+
+
