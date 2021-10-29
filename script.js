@@ -219,3 +219,9 @@
 // const invert = (array) => array.map((e) => (-e));
 
 // console.log(invert([1, -2, 3, -4, 5]));
+
+// Third Angle of a Triangle
+
+// const otherAngle = (a, b) => 180 - (a + b);
+
+// console.log(otherAngle(90,45));
