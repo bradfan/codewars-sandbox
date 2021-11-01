@@ -312,3 +312,38 @@
 // const arrayPlusArray = (a,b) => a.concat(b).reduce((x, y) => x + y)
 
 // console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
+
+// Grasshopper - Summation
+
+// const summation = function (num) {
+//     let sum = 0;
+//     for (let i = 1; i <= num; i++) {
+//       sum += i;
+//     }
+//     return sum;
+//   };
+  
+//   console.log(summation([100]));
+
+
+// Returning Strings
+
+// const greet = function (name) {
+//   return `Hello, ${name} how are you doing today?`;
+// };
+
+// const greet = name => `Hello, ${name} how are you doing today?`
+
+// console.log(greet("Brandon"));
+
+// Convert a Number to a String!
+
+// const numberToString = (num) => num.toString()
+
+// console.log(numberToString(5))
+
+// Opposite number
+
+// const opposite = (number) => number * -1;
+
+// console.log(opposite(-14))
