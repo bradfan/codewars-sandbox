@@ -371,3 +371,45 @@
 // const positiveSum = (arr) => arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
  
 // console.log(positiveSum([1, -2, 3, 4, 5]));
+
+// const countSheeps = function (array) {
+//   let result = [];
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] === true) {
+//       result.push(array[i]);
+//     }
+//   }
+//   return result.length;
+// };
+
+// Alternate solution 
+// const countSheeps = (array) => array.filter(Boolean).length;
+
+// console.log(
+//   countSheeps([
+//     true,
+//     true,
+//     true,
+//     false,
+//     true,
+//     true,
+//     true,
+//     true,
+//     true,
+//     false,
+//     true,
+//     false,
+//     true,
+//     false,
+//     false,
+//     true,
+//     true,
+//     true,
+//     true,
+//     true,
+//     false,
+//     false,
+//     true,
+//     true,
+//   ])
+// );
