@@ -418,3 +418,9 @@
 // const removeChar = (str) => str.substring(1,str.length -1);
     
 // console.log(removeChar("brandon"));
+
+// Grasshopper - Messi goals function
+
+// const goals = (a, b, c) => a + b + c;
+
+// console.log(goals(3, 4, 5));
