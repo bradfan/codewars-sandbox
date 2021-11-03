@@ -424,3 +424,9 @@
 // const goals = (a, b, c) => a + b + c;
 
 // console.log(goals(3, 4, 5));
+
+// Will there be enough space?
+
+// const enough = (cap, on, wait)  => wait <= (cap - on) ? 0 : Math.abs(wait - (cap - on));
+
+// console.log(enough(10, 5, 7));
