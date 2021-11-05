@@ -430,3 +430,7 @@
 // const enough = (cap, on, wait)  => wait <= (cap - on) ? 0 : Math.abs(wait - (cap - on));
 
 // console.log(enough(10, 5, 7));
+
+// const sumStr = (a, b) => (Number(a) + Number(b)).toString();
+  
+// console.log(sumStr("4", "5"));
