@@ -2,22 +2,18 @@
   
 // gpa function that returns integer.1st decimal -  CODEJAM
 
-// const rando = () => (Math.random() * 3 + 1);
-// console.log(rando.slice(-9));
-// let randomGPA = () => Array.from(rando()).slice(-9)
+// const randoGen = () => Math.random();
+
+
+
+// const randomGPA = () => (randoGen()) * 3 + 1;
+
+// console.log(randomGPA().toFixed(1))
+
+// console.log("gpa",randomGPA());
  
 
-// console.log(randomGPA());
-// console.log(randomGPA());
-// console.log(randomGPA());
-// console.log(randomGPA());
-// console.log(randomGPA());
-// console.log(randomGPA());
-// console.log(randomGPA());
-// console.log(randomGPA());
-// console.log(randomGPA());
-// console.log(randomGPA());
-    
+
 
 // Improve firstName/lastName function CODEJAM
 
