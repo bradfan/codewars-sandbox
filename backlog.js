@@ -434,3 +434,36 @@
 // const sumStr = (a, b) => (Number(a) + Number(b)).toString();
   
 // console.log(sumStr("4", "5"));
+
+// gpa function that returns integer.1st decimal -  CODEJAM
+
+// const randoGen = () => Math.random();
+
+// const randomGPA = () => (randoGen()) * 3 + 1;
+
+// console.log(randomGPA().toFixed(1))
+
+// console.log("gpa",randomGPA());
+
+// Improve firstName/lastName function CODEJAM
+
+// const firstNames = ["Brad 1", "Zintis 2", "Joe 3", "Phoebe 4", "Giuseppe 5"];
+
+// const fName = () =>  Math.trunc(Math.random() * firstNames.length);
+
+// console.log(firstNames[fName()])
+// console.log(firstNames[fName()])
+// console.log(firstNames[fName()])
+// console.log(firstNames[fName()])
+// console.log(firstNames[fName()])
+
+//   Filter out the geese
+
+// return an array containing all of the strings in the input array EXCEPT those that match strings in geese
+
+// const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+
+// const gooseFilter = (birds) => birds.filter((elm) => !geese.includes(elm));
+
+// console.log(gooseFilter(["Mallard","Hook Bill","African","Crested","Pilgrim","Toulouse","Blue Swedish",])
+// );
