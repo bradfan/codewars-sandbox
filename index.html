@@ -11,15 +11,27 @@
     <div class="big-box">
       <h1 class="title">CODEWARS SANDBOX</h1>
       <div class="sandbox">
-        <input 
-        type="radio"
-        id="html"
-        >
-        <label for="html">HTML</label>
-      </div>
+        <p>Select your favorite browser:</p>
+<form action="/action_page.php">
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Internet Explorer">Internet Explorer<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Firefox">Firefox<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Opera">Opera<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Google Chrome">Google Chrome<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Safari">Safari<br><br>
 
+  Your favorite browser is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(browser) {
+  console.log(browser);
+  document.getElementById("result").value = browser;
+}
+</script>
+      </div>
     </div>
-    
+
     <script src="script.js"></script>
   </body>
 </html>
