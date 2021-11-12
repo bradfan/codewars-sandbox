@@ -476,3 +476,11 @@
 // console.log(bellCurve());
 // console.log(bellCurve());
 // console.log(bellCurve());
+
+// Keep up the hoop CODEWARS
+
+// const hoopCount = (n) =>
+//   n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it"
+
+
+// console.log(hoopCount(15))
