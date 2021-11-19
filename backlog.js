@@ -634,3 +634,11 @@
    
    
 //    console.log(howMuchILoveYou(7));
+
+// Beginner Series #4 Cockroach
+
+// const cockroachSpeed = (s) => Math.floor((s * 1000)/36);
+    
+  
+
+//   console.log(cockroachSpeed(100))
