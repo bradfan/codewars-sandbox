@@ -699,3 +699,27 @@
 // };
 
 // console.log(switchItUp(5));
+
+// HACKER RANK TEST QUIZ fizzbuzz
+
+// function fizzBuzz(n) {
+//   for (let i = 1; i < n + 1; i++) {
+//     if (i % 15 === 0) console.log(i, "fizzbuzz");
+//     else if (i % 3 === 0) console.log(i, "fizz");
+//     else if (i % 5 === 0) console.log(i, "buzz");
+//     else console.log(i);
+//   }
+// }
+
+// console.log(fizzBuzz(15));
+
+// For Twins: 2. Math operations
+
+// // function iceBrickVolume(radius, bottleLength, rimLength) { let volume =  (radius ** 2 * (bottleLength - rimLength)) * 2;
+// //      return volume
+// //   }
+
+// // same function as =>
+//   const iceBrickVolume = (radius, bottleLength, rimLength) => (radius ** 2 * (bottleLength - rimLength)) * 2
+
+//   console.log(iceBrickVolume(1, 10, 2));
