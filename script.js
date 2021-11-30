@@ -1,5 +1,7 @@
 "use strict";
 
+const log = console.log.bind(document);
+
 // document.getElementById('generate').onclick = function() {
 
 //     let values = ["dog", "cat", "parrot", "rabbit"];
@@ -24,6 +26,4 @@
 // }
 
 
-// 
- 
 

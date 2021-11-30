@@ -1,5 +1,7 @@
 "use strict";
 
+const log = console.log.bind(document);
+
 // Codewars Find min and max in an array
 
 // let array = [-52, 56, 30, 29, -54, 0, -110];
@@ -723,3 +725,16 @@
 //   const iceBrickVolume = (radius, bottleLength, rimLength) => (radius ** 2 * (bottleLength - rimLength)) * 2
 
 //   console.log(iceBrickVolume(1, 10, 2));
+
+// DNA TO RNA CONVERSION CODEWARS
+
+// function DNAtoRNA(dna) {
+//     let RNA = dna.replaceAll('T', 'U');
+//     return RNA
+//   }
+
+// replaceAll() is not yet supported by all browsers. the reg exp /T/g stands in, "g" is for global
+ 
+// const DNAtoRNA = (dna) => dna.replace(/T/g, 'U')
+
+// log(DNAtoRNA("TTTTTT"))
