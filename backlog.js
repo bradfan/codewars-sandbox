@@ -738,3 +738,47 @@ const log = console.log.bind(document);
 // const DNAtoRNA = (dna) => dna.replace(/T/g, 'U')
 
 // log(DNAtoRNA("TTTTTT"))
+
+// let str = "String with spaces.";
+
+// function noSpace(x) {
+//   let result = x.split(" ").join("");
+// }
+// noSpace(str);
+
+// function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin) {
+//   const sharkTime = sharkDistance / sharkSpeed;
+//   const humanTime = pontoonDistance / youSpeed;
+//   if ((dolphin = true)) {
+//     sharkTime === sharkTime * 2;
+//   }
+//   console.log(humanTime < sharkTime ? "Alive!" : "Shark Bait!");
+
+//   return humanTime < sharkTime ? "Alive!" : "Shark Bait!";
+// }
+// // Testing for 28 and 109 and 1 and 7 and true
+// shark(28, 109, 1, 107, true);
+
+// function countPositivesSumNegatives(input) {
+//     if (input.length === 0 || input === null) {
+//         return input;
+//     }
+//   let result = [];
+//   let negs = 0;
+//   let counter = 0;
+//   for (let i = 0; i < input.length; i++) {
+//     if (input[i] > 0) {
+//       counter++;
+//     } else if (input[i] < 0) {
+//       negs += input[i];
+//     }
+//   }
+//   result.push(counter);
+//   result.push(negs);
+//   console.log(result);
+//   return result;
+// }
+
+// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
+// countPositivesSumNegatives(array);
+
