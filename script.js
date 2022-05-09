@@ -46,3 +46,17 @@ function sameCase(a, b) {
 const char1 = "T";
 const char2 = "3";
 console.log(sameCase(char1, char2));
+
+function nameShuffler(str) {
+  const strArray = str.split(" ");
+  return strArray[1].concat(" ", strArray[0]);
+}
+// OR
+
+function nameShuffler2(str) {
+  return str.split(" ").reverse().join(" ");
+}
+
+
+console.log(nameShuffler("Phil McKrevis"));
+console.log(nameShuffler2("Phil McKrevis"));
