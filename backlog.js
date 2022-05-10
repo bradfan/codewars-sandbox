@@ -782,3 +782,94 @@ const log = console.log.bind(document);
 // let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
 // countPositivesSumNegatives(array);
 
+//  function stringClean(s) {
+//   return s.replace(/[0-9]/g, "");
+// }
+
+// console.log("If either of the characters is not a letter, return -1");
+// console.log("If both characters are the same case, return 1");
+// console.log("If both characters are letters, but not the same case, return 0");
+// function sameCase(a, b) {
+//   if (/[a-zA-Z]/.test(a) === false || /[a-zA-Z]/.test(b) === false) {
+//     return -1;
+//   }
+//   if (
+//     (a.toUpperCase() === a && b.toUpperCase() === b) ||
+//     (a.toLowerCase() === a && b.toLowerCase() === b)
+//   ) {
+//     return 1;
+//   } else return 0;
+// }
+// const char1 = "T";
+// const char2 = "3";
+// console.log(sameCase(char1, char2));
+
+// function nameShuffler(str) {
+//   const strArray = str.split(" ");
+//   return strArray[1].concat(" ", strArray[0]);
+// }
+// // OR
+
+// function nameShuffler2(str) {
+//   return str.split(" ").reverse().join(" ");
+// }
+
+// console.log(nameShuffler("Phil McKrevis"));
+// console.log(nameShuffler2("Phil McKrevis"));
+
+// function solution(a, b) {
+//   return a.length > b.length
+//     ? b.concat(a).concat(b)
+//     : a.concat(b).concat(a);
+// }
+// console.log(solution("1", "22"));
+
+// function capitalizeWord(word) {
+//   return word.charAt(0).toUpperCase() + word.slice(1);
+ 
+// }
+
+// console.log(capitalizeWord("fucker"));
+
+// function findMultiples(integer, limit) {
+//      const multipleNumber = Math.floor(limit / integer);
+//      let result = [];
+//      for (let i = 1; i <= multipleNumber; i++) {
+//        result.push(integer * i);
+//      }
+//      return result;
+//    }
+//    console.log(findMultiples(11, 32));
+   
+//    function removeEveryOther(arr) {
+//      let result = [];
+//      for (let i = 0; i < arr.length; i++) {
+//        if (i % 2 === 0) {
+//          result.push(arr[i]);
+//        }
+//      }
+//      return result;
+//    }
+   
+//    console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
+   
+//    function magNumber(info) {
+//      const totalRds = info[1] * 3;
+   
+//      switch (info[0]) {
+//        case "PT92":
+//          return Math.ceil(totalRds / 17);
+//          break;
+//        case "M4A1":
+//          return Math.ceil(totalRds / 30);
+//          break;
+//        case "M16A2":
+//          return Math.ceil(totalRds / 30);
+//          break;
+//        case "PSG1":
+//          return Math.ceil(totalRds / 5);
+//          break;
+//        }
+     
+//    }
+//    console.log(magNumber(["PT92", 20]));
