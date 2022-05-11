@@ -873,3 +873,34 @@ const log = console.log.bind(document);
      
 //    }
 //    console.log(magNumber(["PT92", 20]));
+
+// function toFreud(string) {
+//      if (string.length === 0) {
+//        return string;
+//      }
+//      let array = string.split(" ");
+//      let result = "";
+//      for (let i = 0; i < array.length; i++) {
+//        result += "sex" + " ";
+//      }
+//      return result;
+//    }
+   
+//    console.log(toFreud("Stick it up your ass."));
+   
+//    function mergeArrays(arr1, arr2) {
+//      if (arr1 === [] || arr2 === []) {
+//        return [];
+//      }
+//      let temp = arr1;
+//      for (let i = 0; i <= arr2.length - 1; i++) {
+//        temp.push(arr2[i]);
+//      }
+//      let result = [...new Set(temp)];
+   
+//      return result.sort((a, b) => {
+//        return a - b;
+//      });
+//    }
+   
+//    console.log(mergeArrays([ 3, 1, 2, 4, 5, 6], [6, 7, 8, 9, 10]));
