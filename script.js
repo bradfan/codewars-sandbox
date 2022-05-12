@@ -25,4 +25,10 @@ const log = console.log.bind(document);
 //     document.getElementById("container").appendChild(label).appendChild(select);
 // }
 
+function wrap(value) {
+  return {
+    "value": value,
+  };
+}
 
+console.log(wrap("bozo"));
