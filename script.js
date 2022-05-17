@@ -1,4 +1,4 @@
- "use strict";
+"use strict";
 
 const log = console.log.bind(document);
 
@@ -27,7 +27,7 @@ const log = console.log.bind(document);
 
 function wrap(value) {
   return {
-    "value": value,
+    value: value,
   };
 }
 
@@ -42,17 +42,20 @@ function pillars(num_pill, dist, width) {
   return distCm * (num_pill - 1) + addWidth;
 }
 
-console.log(pillars(5, 25, 25))
+console.log(pillars(5, 25, 25));
 
 function isToday(date) {
-  let today = new Date().toISOString().slice(0, 10)
-  console.log(today)
-  console.log(date)
+  let today = new Date().toISOString().slice(0, 10);
+  console.log(today);
+  console.log(date);
   return today == date;
-  }
+}
 
-console.log(isToday("2022-05-17"))
+console.log(isToday("2022-05-17"));
 
+function isPalindrome(x) {
+  const y = x.split("").reverse().join("");
+  return y.toLowerCase() === x.toLowerCase();
+}
 
-
-
+console.log(isPalindrome("Bob"));
