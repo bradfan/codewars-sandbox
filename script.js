@@ -1,4 +1,4 @@
-"use strict";
+ "use strict";
 
 const log = console.log.bind(document);
 
@@ -32,3 +32,27 @@ function wrap(value) {
 }
 
 console.log(wrap("bozo"));
+
+function pillars(num_pill, dist, width) {
+  if (num_pill === 1) {
+    return 0;
+  }
+  const distCm = dist * 100;
+  const addWidth = (num_pill - 2) * width;
+  return distCm * (num_pill - 1) + addWidth;
+}
+
+console.log(pillars(5, 25, 25))
+
+function isToday(date) {
+  let today = new Date().toISOString().slice(0, 10)
+  console.log(today)
+  console.log(date)
+  return today == date;
+  }
+
+console.log(isToday("2022-05-17"))
+
+
+
+
