@@ -904,3 +904,70 @@ const log = console.log.bind(document);
 //    }
    
 //    console.log(mergeArrays([ 3, 1, 2, 4, 5, 6], [6, 7, 8, 9, 10]));
+
+// function wrap(value) {
+//      return {
+//        value: value,
+//      };
+//    }
+   
+//    console.log(wrap("bozo"));
+   
+//    function pillars(num_pill, dist, width) {
+//      if (num_pill === 1) {
+//        return 0;
+//      }
+//      const distCm = dist * 100;
+//      const addWidth = (num_pill - 2) * width;
+//      return distCm * (num_pill - 1) + addWidth;
+//    }
+   
+//    console.log(pillars(5, 25, 25));
+   
+//    function isToday(date) {
+//      let today = new Date().toISOString().slice(0, 10);
+//      console.log(today);
+//      console.log(date);
+//      return today == date;
+//    }
+   
+//    console.log(isToday("2022-05-17"));
+   
+//    function isPalindrome(x) {
+//      const y = x.split("").reverse().join("");
+//      return y.toLowerCase() === x.toLowerCase();
+//    }
+   
+//    console.log(isPalindrome("Bob"));
+
+
+// function dontGiveMeFive(start, end) {
+//      const array = [];
+//      const newArray = [];
+//      for (let i = start; i <= end; i++) {
+//        array.push(i);
+//      }
+//      console.log(array);
+//      const tempArray = array.map((x) => {
+//        return String(x);
+//      });
+//      console.log(tempArray);
+//      for (let i = 0; i < tempArray.length; i++) {
+//        if (!tempArray[i].includes("5")) {
+//          newArray.push(tempArray[i]);
+//        }
+//      }
+//      return newArray.length;
+//    }
+   
+//    console.log(dontGiveMeFive(4, 17));
+   
+//    function dontGiveMeFiveCondensed(start, end){
+//      let res = [];
+//      for (let i = start; i <= end; i++) {
+//        if (!i.toString().includes('5')) res.push(i);
+//      }
+//      return res.length;
+//    }
+   
+//    console.log(dontGiveMeFiveCondensed(4, 17));
