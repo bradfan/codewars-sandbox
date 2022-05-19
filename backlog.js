@@ -971,3 +971,9 @@ const log = console.log.bind(document);
 //    }
    
 //    console.log(dontGiveMeFiveCondensed(4, 17));
+
+// function remainder(n, m) {
+//      return n > m ? n % m : m % n;
+//    }
+   
+//    console.log(remainder(4, 15));
