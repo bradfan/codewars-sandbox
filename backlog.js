@@ -977,3 +977,13 @@ const log = console.log.bind(document);
 //    }
    
 //    console.log(remainder(4, 15));
+
+// function remove(string) {
+     //   return string.charAt(string.length - 1) === "!"
+     //     ? string.slice(0, string.length - 1)
+     //     // same as:
+     //     //  ? string.slice(0, -1)
+     //     : string;
+     // }
+     
+     // console.log(remove("Up yours!"));
