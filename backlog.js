@@ -987,3 +987,13 @@ const log = console.log.bind(document);
      // }
      
      // console.log(remove("Up yours!"));
+
+     // function hello(name) {
+          //   if (name === undefined || name.length === 0) {
+          //     return "Hello, World!";
+          //   }
+          //   const nameString = name.toLowerCase();
+          //   return "Hello, " + nameString.charAt(0).toUpperCase() + nameString.slice(1) + "!";
+          // }
+          
+          // console.log(hello("bOb"));
