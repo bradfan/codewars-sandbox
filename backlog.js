@@ -294,16 +294,16 @@ const log = console.log.bind(document);
 // console.log(twoHighest([15, 20, 21, 17]));
 
 // // const twoHighest = function (array) {
-   
+
 // //     for (let i = 0; i < array.length; i++) {
 // //         const newArray = [];
 // //         if(array[i] > array[i++]) {
 // //            newArray.push(array[i]);
 // //            console.log(newArray)
 // //         }
-        
+
 // //     }
-        
+
 // // };
 // // console.log(twoHighest([15, 20, 21, 17]));
 
@@ -324,9 +324,8 @@ const log = console.log.bind(document);
 //     }
 //     return sum;
 //   };
-  
-//   console.log(summation([100]));
 
+//   console.log(summation([100]));
 
 // Returning Strings
 
@@ -365,13 +364,13 @@ const log = console.log.bind(document);
 //   }
 //   return sum;
 // };
-  
+
 // console.log(positiveSum([1, -2, 3, 4, 5]));
 
 // Alternate solution!!
 
 // const positiveSum = (arr) => arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
- 
+
 // console.log(positiveSum([1, -2, 3, 4, 5]));
 
 // const countSheeps = function (array) {
@@ -384,7 +383,7 @@ const log = console.log.bind(document);
 //   return result.length;
 // };
 
-// Alternate solution 
+// Alternate solution
 // const countSheeps = (array) => array.filter(Boolean).length;
 
 // console.log(
@@ -418,7 +417,7 @@ const log = console.log.bind(document);
 
 //  Remove First and Last Character
 // const removeChar = (str) => str.substring(1,str.length -1);
-    
+
 // console.log(removeChar("brandon"));
 
 // Grasshopper - Messi goals function
@@ -434,7 +433,7 @@ const log = console.log.bind(document);
 // console.log(enough(10, 5, 7));
 
 // const sumStr = (a, b) => (Number(a) + Number(b)).toString();
-  
+
 // console.log(sumStr("4", "5"));
 
 // gpa function that returns integer.1st decimal -  CODEJAM
@@ -483,7 +482,6 @@ const log = console.log.bind(document);
 
 // const hoopCount = (n) =>
 //   n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it"
-
 
 // console.log(hoopCount(15))
 
@@ -609,11 +607,10 @@ const log = console.log.bind(document);
 // classForm.append(submitClass2);
 
 // this function (also saved in sandbox) returns cannot read properties of null. It works in standard html/js but not dynamically. It may be out of place.
-     // function formFunction(profession) {
-     //   console.log("Profession", profession);
-     //   document.getElementById("result").value = profession;
-     // }
-
+// function formFunction(profession) {
+//   console.log("Profession", profession);
+//   document.getElementById("result").value = profession;
+// }
 
 // I love you, a little , a lot, passionately ... not at all CODEWARS
 
@@ -633,15 +630,12 @@ const log = console.log.bind(document);
 //          return "madly";
 //      }
 //    };
-   
-   
+
 //    console.log(howMuchILoveYou(7));
 
 // Beginner Series #4 Cockroach
 
 // const cockroachSpeed = (s) => Math.floor((s * 1000)/36);
-    
-  
 
 //   console.log(cockroachSpeed(100))
 
@@ -656,16 +650,16 @@ const log = console.log.bind(document);
 //          return "drink beer";
 //      } else return 'drink whisky';
 //    };
- 
-//    console.log(peopleWithAgeDrink());
- 
- //   Abbreviated solution:
- //   const peopleWithAgeDrink = (age) =>
- //   age < 14 ? "drink toddy" :
- //   age < 18 ? "drink coke" :
- //   age < 21 ? "drink beer" : "drink whisky"
 
- // Switch it up
+//    console.log(peopleWithAgeDrink());
+
+//   Abbreviated solution:
+//   const peopleWithAgeDrink = (age) =>
+//   age < 14 ? "drink toddy" :
+//   age < 18 ? "drink coke" :
+//   age < 21 ? "drink beer" : "drink whisky"
+
+// Switch it up
 
 // const switchItUp = function (number) {
 //   switch (number) {
@@ -734,7 +728,7 @@ const log = console.log.bind(document);
 //   }
 
 // replaceAll() is not yet supported by all browsers. the reg exp /T/g stands in, "g" is for global
- 
+
 // const DNAtoRNA = (dna) => dna.replace(/T/g, 'U')
 
 // log(DNAtoRNA("TTTTTT"))
@@ -826,7 +820,7 @@ const log = console.log.bind(document);
 
 // function capitalizeWord(word) {
 //   return word.charAt(0).toUpperCase() + word.slice(1);
- 
+
 // }
 
 // console.log(capitalizeWord("fucker"));
@@ -840,7 +834,7 @@ const log = console.log.bind(document);
 //      return result;
 //    }
 //    console.log(findMultiples(11, 32));
-   
+
 //    function removeEveryOther(arr) {
 //      let result = [];
 //      for (let i = 0; i < arr.length; i++) {
@@ -850,12 +844,12 @@ const log = console.log.bind(document);
 //      }
 //      return result;
 //    }
-   
+
 //    console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
-   
+
 //    function magNumber(info) {
 //      const totalRds = info[1] * 3;
-   
+
 //      switch (info[0]) {
 //        case "PT92":
 //          return Math.ceil(totalRds / 17);
@@ -870,7 +864,7 @@ const log = console.log.bind(document);
 //          return Math.ceil(totalRds / 5);
 //          break;
 //        }
-     
+
 //    }
 //    console.log(magNumber(["PT92", 20]));
 
@@ -885,9 +879,9 @@ const log = console.log.bind(document);
 //      }
 //      return result;
 //    }
-   
+
 //    console.log(toFreud("Stick it up your ass."));
-   
+
 //    function mergeArrays(arr1, arr2) {
 //      if (arr1 === [] || arr2 === []) {
 //        return [];
@@ -897,12 +891,12 @@ const log = console.log.bind(document);
 //        temp.push(arr2[i]);
 //      }
 //      let result = [...new Set(temp)];
-   
+
 //      return result.sort((a, b) => {
 //        return a - b;
 //      });
 //    }
-   
+
 //    console.log(mergeArrays([ 3, 1, 2, 4, 5, 6], [6, 7, 8, 9, 10]));
 
 // function wrap(value) {
@@ -910,9 +904,9 @@ const log = console.log.bind(document);
 //        value: value,
 //      };
 //    }
-   
+
 //    console.log(wrap("bozo"));
-   
+
 //    function pillars(num_pill, dist, width) {
 //      if (num_pill === 1) {
 //        return 0;
@@ -921,25 +915,24 @@ const log = console.log.bind(document);
 //      const addWidth = (num_pill - 2) * width;
 //      return distCm * (num_pill - 1) + addWidth;
 //    }
-   
+
 //    console.log(pillars(5, 25, 25));
-   
+
 //    function isToday(date) {
 //      let today = new Date().toISOString().slice(0, 10);
 //      console.log(today);
 //      console.log(date);
 //      return today == date;
 //    }
-   
+
 //    console.log(isToday("2022-05-17"));
-   
+
 //    function isPalindrome(x) {
 //      const y = x.split("").reverse().join("");
 //      return y.toLowerCase() === x.toLowerCase();
 //    }
-   
-//    console.log(isPalindrome("Bob"));
 
+//    console.log(isPalindrome("Bob"));
 
 // function dontGiveMeFive(start, end) {
 //      const array = [];
@@ -959,9 +952,9 @@ const log = console.log.bind(document);
 //      }
 //      return newArray.length;
 //    }
-   
+
 //    console.log(dontGiveMeFive(4, 17));
-   
+
 //    function dontGiveMeFiveCondensed(start, end){
 //      let res = [];
 //      for (let i = start; i <= end; i++) {
@@ -969,31 +962,39 @@ const log = console.log.bind(document);
 //      }
 //      return res.length;
 //    }
-   
+
 //    console.log(dontGiveMeFiveCondensed(4, 17));
 
 // function remainder(n, m) {
 //      return n > m ? n % m : m % n;
 //    }
-   
+
 //    console.log(remainder(4, 15));
 
 // function remove(string) {
-     //   return string.charAt(string.length - 1) === "!"
-     //     ? string.slice(0, string.length - 1)
-     //     // same as:
-     //     //  ? string.slice(0, -1)
-     //     : string;
-     // }
-     
-     // console.log(remove("Up yours!"));
+//   return string.charAt(string.length - 1) === "!"
+//     ? string.slice(0, string.length - 1)
+//     // same as:
+//     //  ? string.slice(0, -1)
+//     : string;
+// }
 
-     // function hello(name) {
-          //   if (name === undefined || name.length === 0) {
-          //     return "Hello, World!";
-          //   }
-          //   const nameString = name.toLowerCase();
-          //   return "Hello, " + nameString.charAt(0).toUpperCase() + nameString.slice(1) + "!";
-          // }
-          
-          // console.log(hello("bOb"));
+// console.log(remove("Up yours!"));
+
+// function hello(name) {
+//   if (name === undefined || name.length === 0) {
+//     return "Hello, World!";
+//   }
+//   const nameString = name.toLowerCase();
+//   return "Hello, " + nameString.charAt(0).toUpperCase() + nameString.slice(1) + "!";
+// }
+
+// console.log(hello("bOb"));
+
+// const cannonsReady = (gunners) => {
+//     const valueArray = Object.values(gunners);
+//     return valueArray.includes("nay") ? "Shiver me timbers!" : "Fire!";
+//   }
+
+//   let a = {'Mike':'aye','Joe':'aye','Johnson':'aye','Peter':'aye'};
+//   console.log(cannonsReady(a));
