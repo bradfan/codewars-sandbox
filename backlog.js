@@ -998,3 +998,10 @@ const log = console.log.bind(document);
 
 //   let a = {'Mike':'aye','Joe':'aye','Johnson':'aye','Peter':'aye'};
 //   console.log(cannonsReady(a));
+
+// function remove (string) {
+    //     return string.replace(/!/g, '').concat("!");
+    //     // return newString.concat("!");   
+    //   }
+    
+    //   console.log(remove("Buff! my!!!!!! helmet!"))
