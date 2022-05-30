@@ -1005,3 +1005,9 @@ const log = console.log.bind(document);
     //   }
     
     //   console.log(remove("Buff! my!!!!!! helmet!"))
+
+    // function remove (string) {
+    //     return string.charAt(string.length - 1) === "!" ? string.slice(0, string.length - 1) : string;
+    //   }
+    
+    //   console.log(remove("!Butt!!"))
