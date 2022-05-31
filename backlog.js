@@ -1026,3 +1026,10 @@ const log = console.log.bind(document);
 // }
 
 // console.log(isNarcissistic(153));
+
+// function ghostBusters(building) {
+//     return building.includes(" ") ? building.split(" ").join("") : "You just wanted my autograph didn't you?";
+
+// }
+
+// console.log(ghostBusters("Butt hole"));
