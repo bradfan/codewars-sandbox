@@ -1000,14 +1000,29 @@ const log = console.log.bind(document);
 //   console.log(cannonsReady(a));
 
 // function remove (string) {
-    //     return string.replace(/!/g, '').concat("!");
-    //     // return newString.concat("!");   
-    //   }
-    
-    //   console.log(remove("Buff! my!!!!!! helmet!"))
+//     return string.replace(/!/g, '').concat("!");
+//     // return newString.concat("!");
+//   }
 
-    // function remove (string) {
-    //     return string.charAt(string.length - 1) === "!" ? string.slice(0, string.length - 1) : string;
-    //   }
-    
-    //   console.log(remove("!Butt!!"))
+//   console.log(remove("Buff! my!!!!!! helmet!"))
+
+// function remove (string) {
+//     return string.charAt(string.length - 1) === "!" ? string.slice(0, string.length - 1) : string;
+//   }
+
+//   console.log(remove("!Butt!!"))
+
+// function isNarcissistic(n) {
+//   const arr = n
+//     .toString()
+//     .split("")
+//     .map((x) => parseInt(x));
+//   const l = arr.length;
+//   let sum = 0;
+//   for (let i = 0; i < l; i++) {
+//     sum += Math.pow(arr[i], l);
+//   }
+//   return sum === n;
+// }
+
+// console.log(isNarcissistic(153));
