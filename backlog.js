@@ -1033,3 +1033,15 @@ const log = console.log.bind(document);
 // }
 
 // console.log(ghostBusters("Butt hole"));
+
+// function getDivisorsCnt(n) {
+    //   const divisorArray = [];
+    //   for (let i = 0; i <= n; i++) {
+    //     if (n % i === 0) {
+    //       divisorArray.push(i);
+    //     }
+    //   }
+    //   return divisorArray.length;
+    // }
+    
+    // console.log(getDivisorsCnt(12));
