@@ -25,3 +25,18 @@ const log = console.log.bind(document);
 //     document.getElementById("container").appendChild(label).appendChild(select);
 // }
 
+function remove(string) {
+  const array = string.split(" ");
+  let result = [];
+  let count = 0;
+  console.log(array);
+  for (let i = 0; i < array.length; i++) {
+    console.log(array[i].split("").map((x) => x === "!"));
+  }
+
+  return result;
+}
+
+console.log(remove("Hi! !Hi! Hi!"));
+
+

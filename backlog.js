@@ -1053,3 +1053,15 @@ const log = console.log.bind(document);
     //   }
     
     //   console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77]))
+
+    // function vowelIndices(word) {
+    //     const vowel = ["a", "e", "i", "o", "u", "y"];
+    //     const result = [];
+    //     [...word.toLowerCase()].forEach((char, index) => {
+    //       if (vowel.includes(char)) {
+    //         result.push(index + 1);
+    //       }
+    //     });
+    //     return result;
+    //   }
+    //   console.log("Vowels:", vowelIndices("YoMama"));
