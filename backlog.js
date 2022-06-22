@@ -1065,3 +1065,32 @@ const log = console.log.bind(document);
     //     return result;
     //   }
     //   console.log("Vowels:", vowelIndices("YoMama"));
+
+    // function remove(string) {
+        //   const array = string.split(" ");
+        //   let result = [];
+        //   let count = 0;
+        //   console.log(array);
+        //   for (let i = 0; i < array.length; i++) {
+        //     console.log(array[i].split("").map((x) => x === "!"));
+        //   }
+        
+        //   return result;
+        // }
+        
+        // console.log(remove("Hi! !Hi! Hi!"));
+
+        // function getMiddle(s) {
+        //     const twoChar = [];
+        //     if (s.length % 2 != 0) {
+        //       return s[s.length / 2 - 0.5];
+        //     } else {
+        //       twoChar.push(s[s.length / 2 - 1]);
+        //       twoChar.push(s[s.length / 2]);
+        //       return twoChar.join("");
+        //     }
+        //   }
+          
+        //   console.log(getMiddle("javascript"));
+
+
