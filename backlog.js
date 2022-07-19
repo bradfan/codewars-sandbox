@@ -1085,12 +1085,18 @@ const log = console.log.bind(document);
         //     if (s.length % 2 != 0) {
         //       return s[s.length / 2 - 0.5];
         //     } else {
-        //       twoChar.push(s[s.length / 2 - 1]);
-        //       twoChar.push(s[s.length / 2]);
+        //       twoChar.push(s[s.length / 2 - 1], s[s.length / 2]);
         //       return twoChar.join("");
         //     }
         //   }
           
         //   console.log(getMiddle("javascript"));
+
+        // function greet(name){
+        //     return name === "Johnny" ?  "Hello, my love!" : "Hello, " + name + "!";
+        //     }
+        
+        //   console.log(greet("Johnny"));
+        //   console.log(greet("full throttle twat waffle"));
 
 
